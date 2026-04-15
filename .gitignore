@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+._*
+
+# Claude Code — 개인 허가 기록 (팀원마다 다름)
+.claude/settings.local.json
+
+# Editor swap files
+*.swp
+*~

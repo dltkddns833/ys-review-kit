@@ -4,7 +4,7 @@ description: >
   영수님(BetterWealth CTO) 리뷰·코멘트·지적 사항을 ys-review 스킬의 `references/`에 새 사례로 등록할 때, 또는 사용자가 영수님 발언을 보고하듯 언급할 때 호출하세요.
   (1) 명시적 저장 요청 — PR 리뷰 코멘트 저장, Teams 발언 보존, 회의록 중 영수님 지적 인용, 상운 사전 리뷰 결과 기록, 새 사례 파일 생성(`YYYY-MM-DD-<slug>.md`), references에 등록·추가.
   (2) 선제적 제안 트리거 — 사용자가 영수님의 구체 발언·지적·요구를 보고 형태로 말하는 상황: "영수님이 ~라고 했어", "영수님이 ~ 지적했어", "방금 회의에서 영수님이", "PR에서 영수님이 ~ 코멘트", "영수님 Teams 메시지", "영수님한테 ~ 까였어", "영수님이 이렇게 말했는데". 이 경우 바로 저장하지 말고 "references에 등록할까요?"라고 먼저 제안한다.
-  (3) 부가 작업 — 증거 등급(직접/간접) 분류, 기존 템플릿 준수(출처·신뢰도 / 지적 포인트 / 도출된 페르소나 지표 / 교훈), ys-review SKILL.md 참조 테이블과 README.md 참조 파일 구조 블록 동시 업데이트, 케이스 slug 자동 생성, 날짜·출처 누락 방지.
+  (3) 부가 작업 — 증거 등급(직접/간접) 분류, 기존 템플릿 준수(출처·신뢰도 / 지적 포인트 / 도출된 페르소나 지표 / 교훈), ys-review SKILL.md 참조 테이블·README.md 참조 파일 구조 블록·프로젝트 CLAUDE.md 파일 구조 목록 동시 업데이트, 케이스 slug 자동 생성, 날짜·출처 누락 방지.
   주의: 영수님을 맥락 없이 짧게 언급하거나 감정 토로("영수님이 짜증났어" 등 저장 가치 없는 언급)에는 트리거하지 않는다.
   이 스킬은 ys-review 스킬의 관리 도구이며 **페르소나 응답을 하지 않습니다** (영수님 톤으로 말하지 않음 — 레퍼런스 구조를 보존하는 데 목적).
 ---
@@ -18,6 +18,7 @@ ys-review 스킬의 페르소나 데이터(`references/`)를 일관된 형태로
   - 새 파일: `/Users/isang-un/Desktop/personal/cto/references/YYYY-MM-DD-<slug>.md`
   - 업데이트: `/Users/isang-un/Desktop/personal/cto/SKILL.md` (`## 참조 문서 안내` 테이블)
   - 업데이트: `/Users/isang-un/Desktop/personal/cto/README.md` (`## 참조 파일 구조` 블록)
+  - 업데이트: `/Users/isang-un/Desktop/personal/cto/CLAUDE.md` (`## 파일 구조` → `references/` 목록)
 
 ## 절대 규칙
 
@@ -25,7 +26,7 @@ ys-review 스킬의 페르소나 데이터(`references/`)를 일관된 형태로
 2. **증거 등급을 반드시 명시한다.**
    - **직접** — 영수님 본인이 남긴 원문(PR 코멘트, Teams, 이메일, 회의록 인용). 원문 그대로 보존.
    - **간접** — 상운·동료가 "영수님이 볼 법한 각도"로 사전 리뷰한 결과. "영수님은 이렇게 말한다"는 단정 금지, 예측형으로만 서술.
-3. **세 파일 동시 업데이트.** 새 사례 파일만 만들고 테이블·블록을 놓치면 ys-review가 영수님에게 바로 짚힐 모순을 만든다.
+3. **네 파일 동시 업데이트.** 새 사례 파일(references)·ys-review `SKILL.md`·`README.md`·프로젝트 `CLAUDE.md` 파일 구조 목록을 모두 건드린다. 하나라도 빠뜨리면 ys-review가 영수님에게 바로 짚힐 모순을 만든다.
 4. **할루시네이션 금지.** 사용자가 제공하지 않은 사실을 추가하지 않는다. 빈 칸은 비우거나 질문한다.
 
 ## 호출 모드 — 명시적 실행 vs 선제적 제안
@@ -126,7 +127,11 @@ ys-review 스킬의 페르소나 데이터(`references/`)를 일관된 형태로
    ```
      YYYY-MM-DD-<slug>.md   <한 줄 요약> (직접/간접)
    ```
-7. 결과 보고: 생성한 파일 경로(자동 생성된 slug 포함), 업데이트한 위치 2곳, 증거 등급 재확인.
+7. `/Users/isang-un/Desktop/personal/cto/CLAUDE.md` 를 읽어 `## 파일 구조` → `references/` 목록에 새 줄 추가:
+   ```
+     - `YYYY-MM-DD-<slug>.md` — <한 줄 요약> (직접/간접).
+   ```
+8. 결과 보고: 생성한 파일 경로(자동 생성된 slug 포함), 업데이트한 위치 3곳(SKILL.md·README.md·CLAUDE.md), 증거 등급 재확인.
 
 ## 응답 포맷
 
@@ -135,6 +140,7 @@ ys-review 스킬의 페르소나 데이터(`references/`)를 일관된 형태로
 - 파일: references/YYYY-MM-DD-<slug>.md  ← slug "<slug>" 는 제목에서 자동 생성됨
 - SKILL.md 테이블: 추가 1행
 - README.md 참조 파일 구조: 추가 1줄
+- CLAUDE.md 파일 구조: 추가 1줄
 
 다음 액션: <필요 시 — 예: "카테고리 분류를 비워둠, 리뷰하며 채워넣을 것">
 ```
@@ -142,4 +148,4 @@ ys-review 스킬의 페르소나 데이터(`references/`)를 일관된 형태로
 ## 출처
 
 - 사례 파일 구조의 원형: [references/2026-04-15-pr-1215-design-system-bw-app.md](../references/2026-04-15-pr-1215-design-system-bw-app.md)
-- 세 파일 동시 업데이트 규칙: [CLAUDE.md](../CLAUDE.md) `## 새 사례를 추가할 때`
+- 네 파일 동시 업데이트 규칙: [CLAUDE.md](../CLAUDE.md) `## 새 사례를 추가할 때`

@@ -83,5 +83,5 @@ description: >
 
 ## 출처
 
-- 영수님 협업 가이드·사례: `README.md`
+- 영수님 협업 가이드 원문: `~/.claude/CLAUDE.md`(정본). 사례: `README.md`·`references/`
 - 스킬 구조 표준: `better-wealth-pb/skills/mydata` (영수님 본인이 반복 인용하는 기준)

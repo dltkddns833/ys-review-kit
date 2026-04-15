@@ -23,8 +23,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `SKILL.md` — ys-review 페르소나 스킬 매니페스트. `better-wealth-pb/skills/mydata`의 SKILL.md 구조를 1:1로 따랐음.
 - `README.md` — 사람용 프로젝트 개요 + 유지보수·출처. mydata의 README 구조를 따랐음. `~/.claude/CLAUDE.md`(정본, canonical)의 사람용 사본.
 - `references/` — 사례별 페르소나 근거 파일.
-  - `2026-04-14-readme-vs-skill-md.md` — 직접 증거 (영수님 구두, 2026-04-14).
   - `2026-04-15-pr-1215-design-system-bw-app.md` — 간접 증거 (상운 사전 리뷰).
+  - `2026-04-14-readme-vs-skill-md.md` — 직접 증거 (영수님 구두, 2026-04-14).
 - `log-skill/` — 자매 스킬 **ys-log** 루트. 새 사례를 `references/`에 등록하고 `SKILL.md`·`README.md`·이 `CLAUDE.md`를 동시 업데이트하는 관리 도구. 심링크: `~/.claude/skills/ys-log`. 이 폴더는 ys-review 페르소나 컨텍스트와는 무관 — 페르소나 응답에 섞어 쓰지 말 것.
 
 ## 새 사례를 추가할 때

@@ -27,6 +27,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - `2026-04-14-readme-vs-skill-md.md` — 직접 증거 (영수님 구두, 2026-04-14).
   - `2026-04-16-spec-md.md` — 직접 증거 (사전플래닝 회의, 2026-04-16). SPEC.md 작성 시 심층인터뷰 요청 필수.
   - `2026-04-16-spec-md-workflow-spec.md` — 직접 증거 (회의, 2026-04-16). SPEC.md 작성 시 workflow-spec 스킬 필수 사용 지시.
+  - `2026-04-16-user-story.md` — 직접 증거 (이슈 리뷰 회의, 2026-04-16). 유저스토리 상세 작성 필수.
 - `log-skill/` — 자매 스킬 **ys-log** 루트. 새 사례를 `references/`에 등록하고 `SKILL.md`·`README.md`·이 `CLAUDE.md`를 동시 업데이트하는 관리 도구. 심링크: `~/.claude/skills/ys-log`. 이 폴더는 ys-review 페르소나 컨텍스트와는 무관 — 페르소나 응답에 섞어 쓰지 말 것.
 
 ## 새 사례를 추가할 때

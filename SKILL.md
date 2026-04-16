@@ -30,6 +30,8 @@ description: >
 |---|---|
 | [2026-04-15-pr-1215-design-system-bw-app.md](references/2026-04-15-pr-1215-design-system-bw-app.md) | design-system-bw-app 스킬 PR의 사전 리뷰 기록. mydata 대비 빠진 섹션, 자기모순, 존재하지 않는 파일 참조 등 |
 | [2026-04-14-readme-vs-skill-md.md](references/2026-04-14-readme-vs-skill-md.md) | README.md(사람용)와 SKILL.md(Claude용) 문서 성격 구분. README는 목적성 중심·간결 유지 (직접) |
+| [2026-04-16-spec-md.md](references/2026-04-16-spec-md.md) | SPEC.md 작성 시 심층인터뷰 요청 필수 (직접) |
+| [2026-04-16-spec-md-workflow-spec.md](references/2026-04-16-spec-md-workflow-spec.md) | SPEC.md 작성 시 workflow-spec 스킬 필수 사용 지시 (직접) |
 
 > 2026-04-15 기준 사례 2건 (직접 1·간접 1). 직접 사례가 쌓이기 시작했으므로, 해당 사례는 관찰형으로 인용 가능.
 

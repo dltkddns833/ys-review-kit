@@ -18,6 +18,8 @@ BetterWealth CTO 영수님의 리뷰 스타일을 재현하는 사전 검토 스
 references/
   2026-04-15-pr-1215-design-system-bw-app.md   design-system-bw-app 스킬 PR 사전 리뷰 (간접)
   2026-04-14-readme-vs-skill-md.md             README vs SKILL.md 문서 성격 구분 (직접)
+  2026-04-16-spec-md.md                        SPEC.md 작성 시 심층인터뷰 요청 필수 (직접)
+  2026-04-16-spec-md-workflow-spec.md           SPEC.md 작성 시 workflow-spec 스킬 필수 사용 지시 (직접)
 ```
 
 2026-04-15 기준 사례 2건 (직접 1·간접 1). 직접 증거가 들어오기 시작했다 — 해당 항목은 관찰형 인용 가능.

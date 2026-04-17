@@ -5,6 +5,24 @@ BetterWealth CTO 영수님의 리뷰 스타일을 재현하는 사전 검토 스
 > 작성 시작: 2026-04-15
 > 정본(canonical): `~/.claude/CLAUDE.md` — 본 README는 사람용 사본. 영수님 협업 가이드 원문은 정본에 있음.
 
+## 스킬 설치
+
+이 저장소를 pull 받은 다음, 해당 폴더로 이동한 뒤(해당 폴더 > 오른쪽 클릭 > 폴더에서 새로운 터미널 열기) 아래 명령어를 입력하세요.
+
+```bash
+ln -s "$(pwd)" ~/.claude/skills/ys-review
+ln -s "$(pwd)/log-skill" ~/.claude/skills/ys-log
+```
+
+SKILL.md 수정 시 재설치 없이 즉시 반영됩니다.
+
+**언인스톨:**
+
+```bash
+rm ~/.claude/skills/ys-review
+rm ~/.claude/skills/ys-log
+```
+
 ## 사용법
 
 | 항목 | 내용 |

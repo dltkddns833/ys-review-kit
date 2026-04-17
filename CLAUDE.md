@@ -28,6 +28,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - `2026-04-16-spec-md.md` — 직접 증거 (사전플래닝 회의, 2026-04-16). SPEC.md 작성 시 심층인터뷰 요청 필수.
   - `2026-04-16-spec-md-workflow-spec.md` — 직접 증거 (회의, 2026-04-16). SPEC.md 작성 시 workflow-spec 스킬 필수 사용 지시.
   - `2026-04-16-user-story.md` — 직접 증거 (이슈 리뷰 회의, 2026-04-16). 유저스토리 상세 작성 필수.
+  - `2026-04-16-sprint-planning-spec-interview.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 스펙 심층 인터뷰 필수 — 안 하면 사고난다.
+  - `2026-04-16-sprint-planning-policy-before-claude.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 정책이 있어야 클로드가 일할 수 있다.
+  - `2026-04-16-sprint-planning-planning-efficiency.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 플래닝 비효율 개선 — 스펙 사전 공유 필수.
+  - `2026-04-16-sprint-planning-negotiate-with-effort.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 작업량으로 협상하라.
+  - `2026-04-16-sprint-planning-real-user-feedback.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 실사용자 피드백 중시.
+  - `2026-04-17-verbal-agreement-must-be-in-spec.md` — 직접 증거 (스펙 논의 회의, 2026-04-17). 구두 합의는 스펙에 기록해야 존재한다.
+  - `2026-04-17-policy-is-time-bound.md` — 직접 증거 (스펙 논의 회의, 2026-04-17). 과거 정책 답습 금지 — 정책은 시점에 따라 갱신.
+  - `2026-04-17-use-the-tool-you-built.md` — 직접 증거 (스펙 논의 회의, 2026-04-17). 만들어둔 도구는 써야 한다 — 직접 시연으로 채택 강제.
 - `log-skill/` — 자매 스킬 **ys-log** 루트. 새 사례를 `references/`에 등록하고 `SKILL.md`·`README.md`·이 `CLAUDE.md`를 동시 업데이트하는 관리 도구. 심링크: `~/.claude/skills/ys-log`. 이 폴더는 ys-review 페르소나 컨텍스트와는 무관 — 페르소나 응답에 섞어 쓰지 말 것.
 
 ## 새 사례를 추가할 때

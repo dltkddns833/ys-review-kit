@@ -33,8 +33,16 @@ description: >
 | [2026-04-16-spec-md.md](references/2026-04-16-spec-md.md) | SPEC.md 작성 시 심층인터뷰 요청 필수 (직접) |
 | [2026-04-16-spec-md-workflow-spec.md](references/2026-04-16-spec-md-workflow-spec.md) | SPEC.md 작성 시 workflow-spec 스킬 필수 사용 지시 (직접) |
 | [2026-04-16-user-story.md](references/2026-04-16-user-story.md) | 유저스토리 상세 작성 필수 — 후속 산출물의 기초 (직접) |
+| [2026-04-16-sprint-planning-spec-interview.md](references/2026-04-16-sprint-planning-spec-interview.md) | 스펙 심층 인터뷰 필수 — 안 하면 사고난다 (직접) |
+| [2026-04-16-sprint-planning-policy-before-claude.md](references/2026-04-16-sprint-planning-policy-before-claude.md) | 정책이 있어야 클로드가 일할 수 있다 (직접) |
+| [2026-04-16-sprint-planning-planning-efficiency.md](references/2026-04-16-sprint-planning-planning-efficiency.md) | 플래닝 비효율 개선 — 스펙 사전 공유·관련자 사전 논의 필수 (직접) |
+| [2026-04-16-sprint-planning-negotiate-with-effort.md](references/2026-04-16-sprint-planning-negotiate-with-effort.md) | 작업량으로 협상하라 — 공수 차이로 방향 유도 (직접) |
+| [2026-04-16-sprint-planning-real-user-feedback.md](references/2026-04-16-sprint-planning-real-user-feedback.md) | 실사용자 피드백 중시 — 불편 빈도/강도 기반 우선순위 (직접) |
+| [2026-04-17-verbal-agreement-must-be-in-spec.md](references/2026-04-17-verbal-agreement-must-be-in-spec.md) | 구두 합의는 스펙에 기록해야 존재한다 (직접) |
+| [2026-04-17-policy-is-time-bound.md](references/2026-04-17-policy-is-time-bound.md) | 과거 정책 답습 금지 — 정책은 시점에 따라 갱신 (직접) |
+| [2026-04-17-use-the-tool-you-built.md](references/2026-04-17-use-the-tool-you-built.md) | 만들어둔 도구는 써야 한다 — 직접 시연으로 채택 강제 (직접) |
 
-> 2026-04-15 기준 사례 2건 (직접 1·간접 1). 직접 사례가 쌓이기 시작했으므로, 해당 사례는 관찰형으로 인용 가능.
+> 2026-04-17 기준 사례 13건 (직접 12·간접 1). 직접 사례가 다수이므로, 해당 사례는 관찰형으로 인용 가능.
 
 ## 영수님 리뷰 스타일 (기록된 범위)
 

@@ -38,11 +38,15 @@ description: >
 | [2026-04-16-sprint-planning-planning-efficiency.md](references/2026-04-16-sprint-planning-planning-efficiency.md) | 플래닝 비효율 개선 — 스펙 사전 공유·관련자 사전 논의 필수 (직접) |
 | [2026-04-16-sprint-planning-negotiate-with-effort.md](references/2026-04-16-sprint-planning-negotiate-with-effort.md) | 작업량으로 협상하라 — 공수 차이로 방향 유도 (직접) |
 | [2026-04-16-sprint-planning-real-user-feedback.md](references/2026-04-16-sprint-planning-real-user-feedback.md) | 실사용자 피드백 중시 — 불편 빈도/강도 기반 우선순위 (직접) |
+| [2026-04-16-sprint-planning-boundary-provide-only.md](references/2026-04-16-sprint-planning-boundary-provide-only.md) | 우리는 제공만 하고, 사용은 상대방 재량 — 시스템 경계 명확화 (직접) |
+| [2026-04-16-sprint-planning-customer-confirm-not-system.md](references/2026-04-16-sprint-planning-customer-confirm-not-system.md) | 시스템으로 복잡하게 만들지 마라 — 고객 컨펌만 있으면 된다 (직접) |
+| [2026-04-16-sprint-planning-guide-over-dev.md](references/2026-04-16-sprint-planning-guide-over-dev.md) | 안내로 해결되는 건 개발하지 마라 — 운영/안내 우선 (직접) |
 | [2026-04-17-verbal-agreement-must-be-in-spec.md](references/2026-04-17-verbal-agreement-must-be-in-spec.md) | 구두 합의는 스펙에 기록해야 존재한다 (직접) |
 | [2026-04-17-policy-is-time-bound.md](references/2026-04-17-policy-is-time-bound.md) | 과거 정책 답습 금지 — 정책은 시점에 따라 갱신 (직접) |
 | [2026-04-17-use-the-tool-you-built.md](references/2026-04-17-use-the-tool-you-built.md) | 만들어둔 도구는 써야 한다 — 직접 시연으로 채택 강제 (직접) |
+| [2026-04-21-persona-pattern-control-via-framing.md](references/2026-04-21-persona-pattern-control-via-framing.md) | 페르소나 핵심 패턴 — 표면은 위임, 실질은 전 영역 통제 (간접·합성) |
 
-> 2026-04-17 기준 사례 13건 (직접 12·간접 1). 직접 사례가 다수이므로, 해당 사례는 관찰형으로 인용 가능.
+> 2026-04-21 기준 사례 17건 (직접 15·간접 2). 직접 사례는 관찰형 인용 가능, 간접 사례는 예측형으로만 사용.
 
 ## 영수님 리뷰 스타일 (기록된 범위)
 

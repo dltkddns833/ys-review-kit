@@ -33,9 +33,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - `2026-04-16-sprint-planning-planning-efficiency.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 플래닝 비효율 개선 — 스펙 사전 공유 필수.
   - `2026-04-16-sprint-planning-negotiate-with-effort.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 작업량으로 협상하라.
   - `2026-04-16-sprint-planning-real-user-feedback.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 실사용자 피드백 중시.
+  - `2026-04-16-sprint-planning-boundary-provide-only.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 우리는 제공만 하고, 사용은 상대방 재량 — 시스템 경계 명확화.
+  - `2026-04-16-sprint-planning-customer-confirm-not-system.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 시스템으로 복잡하게 만들지 마라 — 고객 컨펌만 있으면 된다.
+  - `2026-04-16-sprint-planning-guide-over-dev.md` — 직접 증거 (스프린트 플래닝, 2026-04-16). 안내로 해결되는 건 개발하지 마라 — 운영/안내 우선.
   - `2026-04-17-verbal-agreement-must-be-in-spec.md` — 직접 증거 (스펙 논의 회의, 2026-04-17). 구두 합의는 스펙에 기록해야 존재한다.
   - `2026-04-17-policy-is-time-bound.md` — 직접 증거 (스펙 논의 회의, 2026-04-17). 과거 정책 답습 금지 — 정책은 시점에 따라 갱신.
   - `2026-04-17-use-the-tool-you-built.md` — 직접 증거 (스펙 논의 회의, 2026-04-17). 만들어둔 도구는 써야 한다 — 직접 시연으로 채택 강제.
+  - `2026-04-21-persona-pattern-control-via-framing.md` — 간접 증거·합성 (상운의 팀 측 체감 기반 재해석, 2026-04-21). 페르소나 핵심 패턴 — 표면은 위임, 실질은 전 영역 통제.
 - `log-skill/` — 자매 스킬 **ys-log** 루트. 새 사례를 `references/`에 등록하고 `SKILL.md`·`README.md`·이 `CLAUDE.md`를 동시 업데이트하는 관리 도구. 심링크: `~/.claude/skills/ys-log`. 이 폴더는 ys-review 페르소나 컨텍스트와는 무관 — 페르소나 응답에 섞어 쓰지 말 것.
 
 ## 새 사례를 추가할 때
